@@ -1,0 +1,402 @@
+
+/*------------------------PAGE DESIGN-------------------- */
+
+body, html {
+ scroll-behavior: smooth;
+ height: 100%;
+ font-family: sans-serif;
+ background-color: rgb(143,188,143);
+
+}
+.boxIndex{
+  width:100%;
+  background-size:1360px 1170px;
+}
+.boxLogin{
+  width:100%;
+  background-size:cover;
+}
+.boxRegister{
+  width:100%;
+  background-size:cover;
+}
+.boxAdd{
+  width:100%;
+  background-size:1360px 670px;
+}
+.section1 {
+  height: 300px;
+  width: 90%;
+  margin-left:auto;
+  margin-right:auto;
+  align: center;
+  background: rgba(204,207,185,1);
+  background: -moz-linear-gradient(top, rgba(204,207,185,1) 0%, rgba(140,156,64,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(204,207,185,1)), color-stop(100%, rgba(140,156,64,1)));
+  background: -webkit-linear-gradient(top, rgba(204,207,185,1) 0%, rgba(140,156,64,1) 100%);
+  background: -o-linear-gradient(top, rgba(204,207,185,1) 0%, rgba(140,156,64,1) 100%);
+  background: -ms-linear-gradient(top, rgba(204,207,185,1) 0%, rgba(140,156,64,1) 100%);
+  background: linear-gradient(to bottom, rgba(204,207,185,1) 0%, rgba(140,156,64,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccfb9', endColorstr='#8c9c40', GradientType=0 );
+}
+
+.section2 {
+  height: 2000px;
+  width: 100%;
+  background-color:rgb(255, 204, 204);
+  margin-left:auto;
+  margin-right:auto;
+  align: center;
+}
+
+a {
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+
+a:focus {
+	outline: none !important;
+}
+
+a:hover {
+	text-decoration: none;
+}
+h1, h2, h3 {
+  margin: 0px;
+  color:grey;
+  font-size: 50px;
+  font-family: georgia;
+  text-align: center;
+}
+h3,h4,h5,h6 {
+  margin: 0px;
+  color:black;
+}
+
+p {
+  margin: 15px;
+  color: black;
+}
+
+
+
+/*------------------------TABLE DESIGN-------------------- */
+.table1 ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  color: black;
+}
+
+.table1 li {
+  float: left;
+  margin: 0px;
+	list-style-type: none;
+  background-color: white;
+  color: white;
+}
+
+.table1 li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 18px;
+
+}
+
+.table1 {
+  width: 100%;
+  background-color:rgba(255, 99, 71, 0);
+  align: center;
+  text-align: justify;
+  border: 2px solid none;
+  border-collapse: collapse;
+  margin-left:auto;
+  margin-right:auto;
+  background: rgba(204,207,185,1);
+  background: -moz-linear-gradient(top, rgba(204,207,185,1) 0%, rgba(140,156,64,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(204,207,185,1)), color-stop(100%, rgba(140,156,64,1)));
+  background: -webkit-linear-gradient(top, rgba(204,207,185,1) 0%, rgba(140,156,64,1) 100%);
+  background: -o-linear-gradient(top, rgba(204,207,185,1) 0%, rgba(140,156,64,1) 100%);
+  background: -ms-linear-gradient(top, rgba(204,207,185,1) 0%, rgba(140,156,64,1) 100%);
+  background: linear-gradient(to bottom, rgba(204,207,185,1) 0%, rgba(140,156,64,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccfb9', endColorstr='#8c9c40', GradientType=0 );
+}
+
+.table1 th {
+  font-weight: unset;
+  text-align: center;
+  padding-right: 70px;
+  background-color:rgb(230, 0, 0);
+}
+.table1 th:hover {
+  font-weight: unset;
+  padding-right: 10px;
+  background-color:rgb(85,107,47);
+}
+.table1 tr:hover {
+  background-color:rgb(85,107,47);
+
+}
+
+.table1 td {
+  font-weight: unset;
+  padding-right: 25px;
+  float: center;
+  margin: 25px;
+	list-style-type: none;
+  align: center;
+  text-align: justify;
+  color: black;
+  text-align:
+}
+
+/*--------------- TABLE 2 DESIGN ----------------*/
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  color: black;
+}
+
+li {
+  float: left;
+  margin: 0px;
+	list-style-type: none;
+  background-color: white;
+  color: black;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 18px;
+
+}
+
+table {
+  width: 100%;
+  background-color:rgba(255, 99, 71, 0);
+  align: center;
+  text-align: justify;
+  border: 2px solid none;
+  border-collapse: collapse;
+  height: 300px;
+  width: 90%;
+  margin-left:auto;
+  margin-right:auto;
+  align: center;
+}
+
+th {
+  font-weight: unset;
+  text-align: center;
+  padding-right: 30px;
+  background-color:rgb(85,107,47);
+}
+th:hover {
+  font-weight: unset;
+  padding-right: 10px;
+  background-color:rgb(230, 0, 0));
+}
+tr:hover {
+  background-color:rgb(85,107,47);
+
+}
+
+td {
+  font-weight: unset;
+  padding-right: 25px;
+  float: center;
+  margin: 25px;
+	list-style-type: none;
+  align: center;
+  text-align: justify;
+}
+
+.column100 {
+  width: 130px;
+  padding-left: 25px;
+}
+
+.column100.column1 {
+  width: 265px;
+  padding-left: 42px;
+}
+
+.row100.head th {
+  padding-top: 24px;
+  padding-bottom: 20px;
+}
+
+.row100 td {
+  padding-top: 18px;
+  padding-bottom: 14px;
+}
+
+.table100.ver1 td {
+  font-family: Montserrat-Regular;
+  font-size: 16px;
+  color: #808080;
+  line-height: 1.4;
+}
+
+.table100.ver1 th {
+  font-family: Montserrat-Medium;
+  font-size: 12px;
+  color: #fff;
+  line-height: 1.4;
+  text-transform: uppercase;
+
+  background-color: #36304a;
+}
+
+.table100.ver1 .row100:hover {
+  background-color: #f2f2f2;
+}
+
+.table100.ver1 .hov-column-ver1 {
+  background-color: #f2f2f2;
+}
+
+.table100.ver1 .hov-column-head-ver1 {
+  background-color: #484848 !important;
+}
+
+.table100.ver1 .row100 td:hover {
+  background-color: #6c7ae0;
+  color: #fff;
+}
+/*------------------------ITEMS DESIGN-------------------- */
+
+.button1 {
+  background-color: rgb(153, 153, 255); /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  outline: none !important;
+}
+
+.button1:hover {
+	box-shadow: 0 12px 16px 0 rgb(179, 179, 255),0 17px 50px 0 rgb(204, 204, 255);
+}
+.button2 {
+  background-color:rgb(154,205,50);
+  padding: 6px 11px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  outline: none !important;
+}
+
+.button2:hover {
+	box-shadow: 0 12px 16px 0 rgb(107,142,35),0 17px 50px 0 rgb(154,205,50);
+}
+.buttonSize {
+  padding: 5px 9px;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+}
+
+iframe {
+	border: none !important;
+}
+.limiter {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-table100 {
+  width: 100%;
+  min-height: 100vh;
+  background: #d1d1d1;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 33px 30px;
+}
+
+.wrap-table100 {
+  width: 1300px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    width: 50%;
+}
+
+.centerImg {
+    text-align: center;
+    border: 3px solid green;
+}
+
+
+/*------------------------TEXT STYLE-------------------- */
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.right {
+    float: right;
+    width: 100px;
+    padding: 10px;
+    margin-right: 68px;
+}
+.left {
+    float: left;
+    width: 100px;
+    padding: 10px;
+    margin-left: 68px;
+}
+
+input {
+  background-color:white;
+}
+input:hover {
+  background-color:rgb(238, 255, 204)
+}
+textarea:hover {
+  background-color:rgb(238, 255, 204)
+}
